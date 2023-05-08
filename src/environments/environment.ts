@@ -3,7 +3,11 @@
 // The list of file replacements can be found in `angular.json`.
 
 export const environment = {
-  production: false
+  production: false,
+  azure: {
+    clientId: '6e9b5126-b0ed-4b14-8d02-0209134ce412', // livewire
+    tenantID: 'f66fae02-5d36-495b-bfe0-78a6ff9f8e6e', // livewire
+  }
 };
 
 /*
